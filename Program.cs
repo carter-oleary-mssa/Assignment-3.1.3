@@ -9,9 +9,7 @@ int GetNumberOfSpaces(string s)
 {
     int numSpaces = 0;
     foreach(char c in s)
-    {
         if (c == ' ') { numSpaces++; }
-    }
     return numSpaces;
 }
 
